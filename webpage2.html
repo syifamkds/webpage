@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+        }
+
+        .container {
+            width: 900px;
+            margin: auto;
+            position: relative;
+        }
+
+        .jumbotron {
+            background-image: url(29673236114_a39ed1539d_c.jpg);
+            background-size: cover;
+            height: 540px;
+            text-align: center;
+            position: relative;
+        }
+
+        .jumbotron::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 80%;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+            position: absolute;
+            bottom: 0;
+        }
+
+        .col {
+            float: right;
+            width: 50%;
+            margin-right: 50px;
+            padding: 30px;
+        }
+
+        .col p {
+            font-family: 'Playfair Display', serif;
+            /* margin: px; */
+            text-align: justify;
+            /* padding: 30px; */
+        }
+
+        .row::after {
+            content: '';
+            display: table;
+            clear: both;
+            /* margin-bottom: 30px; */
+        }
+
+        .row {
+            /* padding: 0px 30px 50px; */
+            margin-left: 100px;
+            overflow: auto;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        .footer h5 {
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h4 {
+            font-weight: lighter;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: bold;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-weight: lighter;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" background-color="white">
+
+        <div class="nav" style="float:right">
+            <a href="#">Home</a> |
+            <a href="#">About</a>
+        </div>
+
+        <div>
+            <h1>My Web</h1>
+        </div>
+
+        <div class="jumbotron">
+
+        </div>
+
+        <div class="article">
+            <h2>Newest Article</h2>
+        </div>
+
+        <div class="row">
+            <img src="map_1_240.jpg" class="content">
+            <div class="col">
+                <p>
+                    This webpage is not responsive and not using table inside the html file (using div). For different
+                    style, kind
+                    to check style 1 or 3 below this page.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="map_2_240.jpg" class="content">
+
+            <div class="col">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, aspernatur in repellendus numquam
+                    suscipit obcaecati ullam explicabo recusandae. Fugiat quaerat iusto omnis provident tenetur
+                    dignissimos
+                    assumenda nesciunt corporis voluptate vero.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="map_3_240.jpg" class="content">
+
+            <div class="col">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quam voluptatibus in accusamus
+                    numquam id. Libero, distinctio. Corporis dicta enim quibusdam, cupiditate voluptate praesentium
+                    aperiam obcaecati numquam iure doloremque perspiciatis!
+                </p>
+            </div>
+        </div>
+
+        <div class="back">
+            <h4>back to design
+                <a href="webpage1.html">1</a> |
+                <a href="webpage3.html">3</a> |
+                <a href="index.html">Home</a>
+            </h4>
+        </div>
+
+        <div class="footer">
+            <h5>2018 Syifa Mukdas</h5>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
